@@ -19,14 +19,14 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/buf/bufwork"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/httpauth"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/alis-exchange/buf/private/buf/buffetch/internal"
+	"github.com/alis-exchange/buf/private/buf/bufwork"
+	"github.com/alis-exchange/buf/private/bufpkg/bufconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/httpauth"
+	"github.com/alis-exchange/buf/private/pkg/storage/storageos"
 	"go.uber.org/zap"
 )
 

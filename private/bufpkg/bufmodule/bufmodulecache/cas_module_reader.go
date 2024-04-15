@@ -19,11 +19,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcas"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/verbose"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcas"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/verbose"
 	"go.uber.org/zap"
 )
 

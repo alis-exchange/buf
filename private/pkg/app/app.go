@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/bufbuild/buf/private/pkg/interrupt"
+	"github.com/alis-exchange/buf/private/pkg/interrupt"
 )
 
 // EnvContainer provides environment variables.

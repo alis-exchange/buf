@@ -18,10 +18,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/stringutil"
 )
 
 func applyModulePaths(

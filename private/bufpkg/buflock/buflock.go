@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage"
 	"go.uber.org/zap"
 )
 

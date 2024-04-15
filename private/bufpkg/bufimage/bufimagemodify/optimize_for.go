@@ -17,8 +17,8 @@ package bufimagemodify
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

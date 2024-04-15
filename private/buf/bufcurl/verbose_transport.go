@@ -26,7 +26,7 @@ import (
 	"strings"
 
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/pkg/verbose"
+	"github.com/alis-exchange/buf/private/pkg/verbose"
 	"go.uber.org/atomic"
 )
 

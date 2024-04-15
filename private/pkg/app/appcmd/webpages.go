@@ -29,7 +29,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v3"

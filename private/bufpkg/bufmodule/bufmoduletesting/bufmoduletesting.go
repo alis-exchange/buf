@@ -17,14 +17,14 @@ package bufmoduletesting
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	breakingv1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/breaking/v1"
-	lintv1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/lint/v1"
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/alis-exchange/buf/private/bufpkg/buflock"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	breakingv1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/breaking/v1"
+	lintv1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/lint/v1"
+	modulev1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/uuidutil"
 )
 
 const (

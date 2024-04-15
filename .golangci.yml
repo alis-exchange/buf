@@ -10,7 +10,7 @@ linters-settings:
       - '^exec\.Command$'
       - '^exec\.CommandContext$'
       # os.Rename does not work across filesystem boundaries
-      # See https://github.com/bufbuild/buf/issues/639
+      # See https://github.com/alis-exchange/buf/issues/639
       - '^os\.Rename$'
       # Ban debug statements
       - '^fmt\.Print'
@@ -22,11 +22,11 @@ linters-settings:
       - nilness
   importas:
     alias:
-      - pkg: github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1
+      - pkg: github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/image/v1
         alias: imagev1
-      - pkg: github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1
+      - pkg: github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/module/v1
         alias: modulev1
-      - pkg: github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1
+      - pkg: github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1
         alias: registryv1alpha1
   nolintlint:
     allow-unused: false

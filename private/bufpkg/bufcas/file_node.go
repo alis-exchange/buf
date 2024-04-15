@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
 )
 
 // FileNode is a path and associated digest.

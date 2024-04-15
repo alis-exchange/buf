@@ -25,9 +25,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/filepathext"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/command"
+	"github.com/alis-exchange/buf/private/pkg/filepathext"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
 )
 
 type openRepositoryOpts struct {

@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/internal"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/slicesext"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/internal"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/slicesext"
+	"github.com/alis-exchange/buf/private/pkg/stringutil"
 )
 
 func newConfigV1Beta1(externalConfig ExternalConfigV1Beta1, deps ...string) (*Config, error) {

@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app"
 	"github.com/jdx/go-netrc"
 )
 

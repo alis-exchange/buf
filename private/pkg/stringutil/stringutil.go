@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/bufbuild/buf/private/pkg/slicesext"
+	"github.com/alis-exchange/buf/private/pkg/slicesext"
 )
 
 // TrimLines splits the output into individual lines and trims the spaces from each line.

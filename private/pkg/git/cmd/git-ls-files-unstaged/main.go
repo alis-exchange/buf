@@ -21,9 +21,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/command"
+	"github.com/alis-exchange/buf/private/pkg/git"
 )
 
 func main() {

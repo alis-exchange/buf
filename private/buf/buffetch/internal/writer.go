@@ -22,8 +22,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/ioext"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/ioext"
 	"github.com/klauspost/compress/zstd"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"

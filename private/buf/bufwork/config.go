@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/slicesext"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/slicesext"
 )
 
 func newConfigV1(externalConfig ExternalConfigV1, workspaceID string) (*Config, error) {

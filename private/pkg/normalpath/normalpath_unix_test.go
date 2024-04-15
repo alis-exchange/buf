@@ -24,7 +24,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/slicesext"
+	"github.com/alis-exchange/buf/private/pkg/slicesext"
 	"github.com/stretchr/testify/assert"
 )
 

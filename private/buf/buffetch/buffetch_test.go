@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/alis-exchange/buf/private/buf/buffetch/internal"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

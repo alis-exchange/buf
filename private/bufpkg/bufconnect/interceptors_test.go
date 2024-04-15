@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/applog"
-	"github.com/bufbuild/buf/private/pkg/netrc"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app/applog"
+	"github.com/alis-exchange/buf/private/pkg/netrc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

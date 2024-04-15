@@ -19,11 +19,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/alis-exchange/buf/private/buf/bufcli"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/pkg/app/appcmd"
+	"github.com/alis-exchange/buf/private/pkg/app/appflag"
+	"github.com/alis-exchange/buf/private/pkg/stringutil"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

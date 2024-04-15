@@ -21,12 +21,12 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/diff"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/licenseheader"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app/appcmd"
+	"github.com/alis-exchange/buf/private/pkg/command"
+	"github.com/alis-exchange/buf/private/pkg/diff"
+	"github.com/alis-exchange/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/licenseheader"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

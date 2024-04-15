@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduletesting"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduletesting"
+	"github.com/alis-exchange/buf/private/pkg/storage/storagemem"
 	"github.com/stretchr/testify/require"
 )
 

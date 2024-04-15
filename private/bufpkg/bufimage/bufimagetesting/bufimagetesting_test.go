@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	imagev1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage"
+	imagev1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/image/v1"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"

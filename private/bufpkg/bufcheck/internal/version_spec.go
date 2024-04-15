@@ -17,7 +17,7 @@ package internal
 import (
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/slicesext"
+	"github.com/alis-exchange/buf/private/pkg/slicesext"
 )
 
 // VersionSpec specifies the rules, ids, and categories for a given version.

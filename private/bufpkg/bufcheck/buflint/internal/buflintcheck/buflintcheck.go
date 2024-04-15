@@ -23,14 +23,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/internal/buflintvalidate"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/protosource"
-	"github.com/bufbuild/buf/private/pkg/protoversion"
-	"github.com/bufbuild/buf/private/pkg/slicesext"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/buflint/internal/buflintvalidate"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/internal"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/protosource"
+	"github.com/alis-exchange/buf/private/pkg/protoversion"
+	"github.com/alis-exchange/buf/private/pkg/slicesext"
+	"github.com/alis-exchange/buf/private/pkg/stringutil"
 )
 
 const (
@@ -165,10 +165,10 @@ func checkEnumFirstValueZero(add addFunc, enum protosource.Enum) error {
 				firstEnumValue,
 				firstEnumValue.NumberLocation(),
 				// also check the name location for this comment ignore, as the number location might not have the comment
-				// see https://github.com/bufbuild/buf/issues/1186
+				// see https://github.com/alis-exchange/buf/issues/1186
 				// also check the enum for this comment ignore
 				// this allows users to set this "globally" for an enum
-				// see https://github.com/bufbuild/buf/issues/161
+				// see https://github.com/alis-exchange/buf/issues/161
 				[]protosource.Location{
 					firstEnumValue.NameLocation(),
 					firstEnumValue.Enum().Location(),
@@ -193,7 +193,7 @@ func checkEnumValuePrefix(add addFunc, enumValue protosource.EnumValue) error {
 			enumValue.NameLocation(),
 			// also check the enum for this comment ignore
 			// this allows users to set this "globally" for an enum
-			// this came up in https://github.com/bufbuild/buf/issues/161
+			// this came up in https://github.com/alis-exchange/buf/issues/161
 			[]protosource.Location{
 				enumValue.Enum().Location(),
 			},
@@ -876,7 +876,7 @@ func checkRPCRequestStandardName(add addFunc, method protosource.Method, allowGo
 			method,
 			method.InputTypeLocation(),
 			// also check the method and service for this comment ignore
-			// this came up in https://github.com/bufbuild/buf/issues/242
+			// this came up in https://github.com/alis-exchange/buf/issues/242
 			[]protosource.Location{
 				method.Location(),
 				method.Service().Location(),
@@ -924,7 +924,7 @@ func checkRPCResponseStandardName(add addFunc, method protosource.Method, allowG
 			method,
 			method.OutputTypeLocation(),
 			// also check the method and service for this comment ignore
-			// this came up in https://github.com/bufbuild/buf/issues/242
+			// this came up in https://github.com/alis-exchange/buf/issues/242
 			[]protosource.Location{
 				method.Location(),
 				method.Service().Location(),

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/pkg/storage"
 	"gopkg.in/yaml.v3"
 )
 

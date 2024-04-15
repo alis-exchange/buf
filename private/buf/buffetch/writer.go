@@ -18,8 +18,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/buf/buffetch/internal"
+	"github.com/alis-exchange/buf/private/pkg/app"
 	"go.uber.org/zap"
 )
 

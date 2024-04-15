@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/alis-exchange/buf/private/pkg/protodescriptor"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

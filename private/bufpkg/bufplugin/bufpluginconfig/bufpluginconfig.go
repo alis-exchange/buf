@@ -23,9 +23,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin/bufpluginref"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/bufpkg/bufplugin/bufpluginref"
+	"github.com/alis-exchange/buf/private/pkg/encoding"
+	"github.com/alis-exchange/buf/private/pkg/storage"
 )
 
 const (

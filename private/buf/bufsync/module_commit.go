@@ -17,8 +17,8 @@ package bufsync
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/storage"
 )
 
 type moduleCommit struct {

@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem/internal"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage/storagemem/internal"
 )
 
 type writeObjectCloser struct {

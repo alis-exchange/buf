@@ -21,8 +21,8 @@ import (
 	"io/fs"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/encoding"
+	"github.com/alis-exchange/buf/private/pkg/storage"
 	"go.uber.org/zap"
 )
 

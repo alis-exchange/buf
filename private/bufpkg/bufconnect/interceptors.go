@@ -21,7 +21,7 @@ import (
 	"net/http"
 
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/pkg/app/applog"
+	"github.com/alis-exchange/buf/private/pkg/app/applog"
 )
 
 const (

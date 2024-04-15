@@ -26,16 +26,16 @@ import (
 
 	"golang.org/x/exp/constraints"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage/bufimagebuild"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage/bufimageutil"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/protosource"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage/bufimagebuild"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage/bufimageutil"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app/appcmd"
+	"github.com/alis-exchange/buf/private/pkg/app/appflag"
+	"github.com/alis-exchange/buf/private/pkg/protosource"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage/storageos"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )
@@ -202,9 +202,9 @@ package `)
 	p(`
 
 import (
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage/storagemem"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
 )
 
 var (

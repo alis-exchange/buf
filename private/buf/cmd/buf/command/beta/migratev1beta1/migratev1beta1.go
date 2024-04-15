@@ -17,10 +17,10 @@ package migratev1beta1
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/buf/bufmigrate"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
+	"github.com/alis-exchange/buf/private/buf/bufmigrate"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app/appcmd"
+	"github.com/alis-exchange/buf/private/pkg/app/appflag"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

@@ -15,10 +15,10 @@
 package bufsyncapi
 
 import (
-	"github.com/bufbuild/buf/private/buf/bufsync"
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/buf/bufsync"
+	registryv1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/alis-exchange/buf/private/pkg/app/appflag"
+	"github.com/alis-exchange/buf/private/pkg/git"
 	"go.uber.org/zap"
 )
 

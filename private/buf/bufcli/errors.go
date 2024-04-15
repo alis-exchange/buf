@@ -22,10 +22,10 @@ import (
 	"net"
 
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/bufpkg/bufconnect"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
+	"github.com/alis-exchange/buf/private/bufpkg/bufconnect"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app/appflag"
 )
 
 const (
@@ -77,7 +77,7 @@ func isInternalError(err error) bool {
 
 func (e *errInternal) Error() string {
 	message := "it looks like you have found a bug in buf. " +
-		"Please file an issue at https://github.com/bufbuild/buf/issues/ " +
+		"Please file an issue at https://github.com/alis-exchange/buf/issues/ " +
 		"and provide the command you ran"
 	if e.cause == nil {
 		return message

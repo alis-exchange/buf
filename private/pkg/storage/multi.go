@@ -18,7 +18,7 @@ import (
 	"context"
 	"io/fs"
 
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
+	"github.com/alis-exchange/buf/private/pkg/storage/storageutil"
 )
 
 // MultiReadBucket takes the union of logically-unique ReadBuckets.

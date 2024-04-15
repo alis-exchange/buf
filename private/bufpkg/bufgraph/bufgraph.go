@@ -17,9 +17,9 @@ package bufgraph
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/dag"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/pkg/dag"
 	"go.uber.org/zap"
 )
 

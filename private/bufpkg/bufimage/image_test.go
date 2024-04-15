@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	imagev1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
+	imagev1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/image/v1"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

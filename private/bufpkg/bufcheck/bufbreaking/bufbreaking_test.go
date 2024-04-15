@@ -20,16 +20,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis/bufanalysistesting"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage/bufimagebuild"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmodulebuild"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis/bufanalysistesting"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/bufbreaking"
+	"github.com/alis-exchange/buf/private/bufpkg/bufconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage/bufimagebuild"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmodulebuild"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
@@ -382,7 +382,7 @@ func TestRunBreakingFileNoDelete(t *testing.T) {
 
 func TestRunBreakingFileNoDeleteUnstable(t *testing.T) {
 	t.Parallel()
-	// https://github.com/bufbuild/buf/issues/211
+	// https://github.com/alis-exchange/buf/issues/211
 	testBreaking(
 		t,
 		"breaking_file_no_delete_unstable",

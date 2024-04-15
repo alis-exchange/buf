@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/netext"
+	modulev1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/alis-exchange/buf/private/pkg/app/appcmd"
+	"github.com/alis-exchange/buf/private/pkg/netext"
 )
 
 // ValidateProtoModuleReference verifies the given module reference is well-formed.

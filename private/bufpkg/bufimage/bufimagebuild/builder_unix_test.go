@@ -20,11 +20,11 @@ package bufimagebuild
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/buftesting"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/testingext"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage"
+	"github.com/alis-exchange/buf/private/bufpkg/buftesting"
+	"github.com/alis-exchange/buf/private/pkg/command"
+	"github.com/alis-exchange/buf/private/pkg/prototesting"
+	"github.com/alis-exchange/buf/private/pkg/testingext"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

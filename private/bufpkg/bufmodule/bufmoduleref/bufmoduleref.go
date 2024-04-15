@@ -22,11 +22,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcas"
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcas"
+	"github.com/alis-exchange/buf/private/bufpkg/buflock"
+	modulev1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/uuidutil"
 	"go.uber.org/multierr"
 )
 

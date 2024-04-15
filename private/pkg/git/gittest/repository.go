@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/command"
+	"github.com/alis-exchange/buf/private/pkg/git"
 	"github.com/stretchr/testify/require"
 )
 

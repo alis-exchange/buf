@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/alis-exchange/buf/private/buf/bufcli"
+	"github.com/alis-exchange/buf/private/bufpkg/bufconfig"
+	"github.com/alis-exchange/buf/private/pkg/app/appcmd"
+	"github.com/alis-exchange/buf/private/pkg/app/appflag"
+	"github.com/alis-exchange/buf/private/pkg/storage/storageos"
 	"github.com/pkg/browser"
 	"github.com/spf13/cobra"
 )

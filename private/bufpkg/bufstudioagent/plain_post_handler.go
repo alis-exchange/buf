@@ -27,8 +27,8 @@ import (
 	"net/url"
 
 	"connectrpc.com/connect"
-	studiov1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/studio/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	studiov1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/studio/v1alpha1"
+	"github.com/alis-exchange/buf/private/pkg/protoencoding"
 	"go.uber.org/zap"
 	"golang.org/x/net/http2"
 	"google.golang.org/protobuf/proto"

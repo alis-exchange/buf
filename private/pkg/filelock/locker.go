@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
 )
 
 type locker struct {

@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/git/gittest"
+	"github.com/alis-exchange/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/git/gittest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

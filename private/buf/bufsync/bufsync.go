@@ -18,12 +18,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagegit"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	registryv1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/alis-exchange/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage/storagegit"
 	"go.uber.org/zap"
 )
 

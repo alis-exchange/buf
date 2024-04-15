@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	"github.com/bufbuild/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/connectclient"
+	"github.com/alis-exchange/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
+	registryv1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/alis-exchange/buf/private/pkg/connectclient"
 )
 
 type repositoryPrinter struct {

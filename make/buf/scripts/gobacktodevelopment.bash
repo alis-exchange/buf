@@ -39,7 +39,7 @@ a\
 ${SED_BIN} -i "/^Initial beta release.$/ {
 N;
 a\
-[Unreleased]: https://github.com/bufbuild/buf/compare/v${RELEASED_VERSION}...HEAD
+[Unreleased]: https://github.com/alis-exchange/buf/compare/v${RELEASED_VERSION}...HEAD
 }" CHANGELOG.md
 
 BRANCH="next/v${RELEASED_VERSION}"

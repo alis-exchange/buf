@@ -17,9 +17,9 @@ package internal
 import (
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck"
+	"github.com/alis-exchange/buf/private/bufpkg/bufconfig"
+	"github.com/alis-exchange/buf/private/pkg/stringutil"
 	"github.com/spf13/pflag"
 )
 

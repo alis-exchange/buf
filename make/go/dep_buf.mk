@@ -7,7 +7,7 @@ $(call _assert_var,CACHE_VERSIONS)
 $(call _assert_var,CACHE_BIN)
 
 # Settable
-# https://github.com/bufbuild/buf/releases 20240307 checked 20240320
+# https://github.com/alis-exchange/buf/releases 20240307 checked 20240320
 BUF_VERSION ?= v1.30.0
 # Settable
 #
@@ -15,7 +15,7 @@ BUF_VERSION ?= v1.30.0
 # as opposed to installing from github with @$(BUF_VERSION).
 #
 # This can be used to always do "go install ./cmd/buf" or
-# "go install github.com/bufbuild/buf/cmd/buf".
+# "go install github.com/alis-exchange/buf/cmd/buf".
 BUF_GO_INSTALL_PATH ?=
 ifneq ($(BUF_GO_INSTALL_PATH),)
 .PHONY: __goinstallbuf
@@ -30,7 +30,7 @@ else
 BUF := $(CACHE_VERSIONS)/buf/$(BUF_VERSION)
 $(BUF):
 	@rm -f $(CACHE_BIN)/buf
-	GOBIN=$(CACHE_BIN) go install github.com/bufbuild/buf/cmd/buf@$(BUF_VERSION)
+	GOBIN=$(CACHE_BIN) go install github.com/alis-exchange/buf/cmd/buf@$(BUF_VERSION)
 	@rm -rf $(dir $(BUF))
 	@mkdir -p $(dir $(BUF))
 	@touch $(BUF)

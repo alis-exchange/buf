@@ -19,7 +19,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/app"
 )
 
 // Process represents a background process.

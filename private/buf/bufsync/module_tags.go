@@ -14,7 +14,7 @@
 
 package bufsync
 
-import "github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+import "github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
 
 type moduleTags struct {
 	targetModuleIdentity bufmoduleref.ModuleIdentity

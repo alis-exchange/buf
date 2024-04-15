@@ -19,9 +19,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/internal"
+	"github.com/alis-exchange/buf/private/pkg/protosource"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

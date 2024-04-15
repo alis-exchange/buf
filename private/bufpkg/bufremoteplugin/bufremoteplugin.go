@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
+	"github.com/alis-exchange/buf/private/pkg/app/appcmd"
 )
 
 const (

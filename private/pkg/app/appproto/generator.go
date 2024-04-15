@@ -18,9 +18,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/alis-exchange/buf/private/pkg/app"
+	"github.com/alis-exchange/buf/private/pkg/protodescriptor"
+	"github.com/alis-exchange/buf/private/pkg/thread"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/pluginpb"
 )

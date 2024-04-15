@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/command"
+	"github.com/alis-exchange/buf/private/pkg/command"
 	"go.uber.org/multierr"
 )
 

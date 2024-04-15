@@ -1,4 +1,4 @@
-module github.com/bufbuild/buf
+module github.com/alis-exchange/buf
 
 go 1.20
 

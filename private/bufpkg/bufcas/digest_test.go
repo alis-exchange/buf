@@ -24,7 +24,7 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcas"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcas"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

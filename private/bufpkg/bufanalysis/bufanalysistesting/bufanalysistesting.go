@@ -17,9 +17,9 @@ package bufanalysistesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/slicesext"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/pkg/slicesext"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

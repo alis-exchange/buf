@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
 )
 
 // ObjectInfo is an embeddable ObjectInfo.

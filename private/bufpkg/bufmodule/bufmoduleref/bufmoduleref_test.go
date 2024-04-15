@@ -20,11 +20,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcas"
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcas"
+	"github.com/alis-exchange/buf/private/bufpkg/buflock"
+	"github.com/alis-exchange/buf/private/pkg/encoding"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage/storagemem"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

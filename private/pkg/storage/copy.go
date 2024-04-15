@@ -19,7 +19,7 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/alis-exchange/buf/private/pkg/thread"
 	"go.uber.org/multierr"
 )
 

@@ -17,12 +17,12 @@ package bufbreaking
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage/bufimageutil"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/internal"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage"
+	"github.com/alis-exchange/buf/private/bufpkg/bufimage/bufimageutil"
+	"github.com/alis-exchange/buf/private/pkg/protosource"
 	"go.uber.org/zap"
 )
 

@@ -16,9 +16,9 @@
 package bufapimodule
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
-	"github.com/bufbuild/buf/private/pkg/connectclient"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
+	"github.com/alis-exchange/buf/private/pkg/connectclient"
 	"go.uber.org/zap"
 )
 

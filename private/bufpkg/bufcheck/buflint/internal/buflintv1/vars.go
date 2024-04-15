@@ -15,8 +15,8 @@
 package buflintv1
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/internal/buflintbuild"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/buflint/internal/buflintbuild"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/internal"
 )
 
 var (

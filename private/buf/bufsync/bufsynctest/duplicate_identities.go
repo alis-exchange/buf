@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufsync"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/git/gittest"
+	"github.com/alis-exchange/buf/private/buf/bufsync"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/pkg/git/gittest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

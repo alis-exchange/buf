@@ -17,9 +17,9 @@ package bufsynctest
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufsync"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/git/gittest"
+	"github.com/alis-exchange/buf/private/buf/bufsync"
+	"github.com/alis-exchange/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/git/gittest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

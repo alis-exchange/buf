@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/syserror"
+	"github.com/alis-exchange/buf/private/pkg/syserror"
 	"golang.org/x/crypto/sha3"
 )
 

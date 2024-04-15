@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
+	"github.com/alis-exchange/buf/private/buf/bufcli"
 )
 
 func TestWorkspaceSymlinkFail(t *testing.T) {
@@ -90,7 +90,7 @@ func TestWorkspaceAbsoluteFail(t *testing.T) {
 
 // TODO: Move this back to workspace_test.go. after resolving the issue where git
 // clone failed with "unable to create file filename too long" on Windows CI.
-// Workflow run: https://github.com/bufbuild/buf/actions/runs/6510804063/job/17685247791.
+// Workflow run: https://github.com/alis-exchange/buf/actions/runs/6510804063/job/17685247791.
 // Potential fix: https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows.
 func TestWorkspaceGit(t *testing.T) {
 	// Directory paths specified as a git reference within a workspace.

@@ -22,15 +22,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/buf/bufgen"
-	"github.com/bufbuild/buf/private/buf/bufwork"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/alis-exchange/buf/private/buf/bufgen"
+	"github.com/alis-exchange/buf/private/buf/bufwork"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/bufconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/buflock"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/alis-exchange/buf/private/pkg/encoding"
+	"github.com/alis-exchange/buf/private/pkg/stringutil"
 )
 
 const (

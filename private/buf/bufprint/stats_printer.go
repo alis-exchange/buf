@@ -21,7 +21,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/bufbuild/buf/private/pkg/protostat"
+	"github.com/alis-exchange/buf/private/pkg/protostat"
 )
 
 type statsPrinter struct {

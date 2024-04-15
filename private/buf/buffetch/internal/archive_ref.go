@@ -14,7 +14,7 @@
 
 package internal
 
-import "github.com/bufbuild/buf/private/pkg/normalpath"
+import "github.com/alis-exchange/buf/private/pkg/normalpath"
 
 var (
 	_ ParsedArchiveRef = &archiveRef{}

@@ -20,8 +20,8 @@ import (
 	"os/exec"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/ioext"
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/alis-exchange/buf/private/pkg/ioext"
+	"github.com/alis-exchange/buf/private/pkg/thread"
 )
 
 var emptyEnv = envSlice(

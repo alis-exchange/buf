@@ -17,7 +17,7 @@ package bufmodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
 )
 
 var _ ModuleFileSet = &moduleFileSet{}

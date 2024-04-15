@@ -20,7 +20,7 @@ package bufmodulebuild
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduletesting"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduletesting"
 )
 
 func TestLicenseSymlink(t *testing.T) {

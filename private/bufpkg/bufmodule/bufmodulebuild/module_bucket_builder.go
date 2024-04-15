@@ -19,13 +19,13 @@ import (
 	"errors"
 	"io/fs"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/alis-exchange/buf/private/bufpkg/bufconfig"
+	"github.com/alis-exchange/buf/private/bufpkg/buflock"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/alis-exchange/buf/private/pkg/normalpath"
+	"github.com/alis-exchange/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/storage/storagemem"
 )
 
 type moduleBucketBuilder struct {
@@ -107,7 +107,7 @@ func (b *moduleBucketBuilder) buildForBucket(
 		roots = append(roots, root)
 		mappers := []storage.Mapper{
 			// need to do match extension here
-			// https://github.com/bufbuild/buf/issues/113
+			// https://github.com/alis-exchange/buf/issues/113
 			storage.MatchPathExt(".proto"),
 			storage.MapOnPrefix(root),
 		}

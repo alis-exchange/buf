@@ -15,8 +15,8 @@
 package storagegit
 
 import (
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/alis-exchange/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/storage"
 )
 
 // Provider provides storage buckets for a git repository.

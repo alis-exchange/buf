@@ -16,4 +16,4 @@
 
 package protosource
 
-import _ "github.com/bufbuild/buf/private/usage"
+import _ "github.com/alis-exchange/buf/private/usage"

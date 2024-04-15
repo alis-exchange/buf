@@ -15,7 +15,7 @@
 package bufwire
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule"
 )
 
 type moduleConfigSet struct {

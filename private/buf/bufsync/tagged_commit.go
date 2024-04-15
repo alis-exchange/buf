@@ -15,7 +15,7 @@
 package bufsync
 
 import (
-	"github.com/bufbuild/buf/private/pkg/git"
+	"github.com/alis-exchange/buf/private/pkg/git"
 )
 
 type taggedCommit struct {

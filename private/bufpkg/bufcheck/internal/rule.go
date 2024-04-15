@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/alis-exchange/buf/private/bufpkg/bufanalysis"
+	"github.com/alis-exchange/buf/private/pkg/protosource"
 )
 
 // IgnoreFunc is an ignore function.

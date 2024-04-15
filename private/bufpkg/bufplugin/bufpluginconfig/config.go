@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin/bufpluginref"
-	"github.com/bufbuild/buf/private/gen/data/dataspdx"
+	"github.com/alis-exchange/buf/private/bufpkg/bufplugin/bufpluginref"
+	"github.com/alis-exchange/buf/private/gen/data/dataspdx"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/semver"
 )

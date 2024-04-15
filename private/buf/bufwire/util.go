@@ -15,8 +15,8 @@
 package bufwire
 
 import (
-	"github.com/bufbuild/buf/private/buf/buffetch"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/alis-exchange/buf/private/buf/buffetch"
+	"github.com/alis-exchange/buf/private/pkg/protoencoding"
 )
 
 func newJSONMarshaler(

@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/osext"
+	"github.com/alis-exchange/buf/private/pkg/osext"
 	"go.uber.org/multierr"
 )
 

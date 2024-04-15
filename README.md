@@ -2,9 +2,9 @@
 
 # Buf
 
-[![License](https://img.shields.io/github/license/bufbuild/buf?color=blue)](https://github.com/bufbuild/buf/blob/main/LICENSE)
-[![Release](https://img.shields.io/github/v/release/bufbuild/buf?include_prereleases)](https://github.com/bufbuild/buf/releases)
-[![CI](https://github.com/bufbuild/buf/workflows/ci/badge.svg)](https://github.com/bufbuild/buf/actions?workflow=ci)
+[![License](https://img.shields.io/github/license/bufbuild/buf?color=blue)](https://github.com/alis-exchange/buf/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/v/release/bufbuild/buf?include_prereleases)](https://github.com/alis-exchange/buf/releases)
+[![CI](https://github.com/alis-exchange/buf/workflows/ci/badge.svg)](https://github.com/alis-exchange/buf/actions?workflow=ci)
 [![Docker](https://img.shields.io/docker/pulls/bufbuild/buf)](https://hub.docker.com/r/bufbuild/buf)
 [![Homebrew](https://img.shields.io/homebrew/v/buf)](https://github.com/bufbuild/homebrew-buf)
 [![Slack](https://img.shields.io/badge/slack-buf-%23e01563)][badges_slack]
@@ -144,7 +144,7 @@ For feature requests, bugs, or technical questions, email us at [dev@buf.build][
 [protobuf]: https://developers.google.com/protocol-buffers
 [pushing]: https://docs.buf.build/bsr/usage#push-a-module
 [releases]: https://docs.buf.build/installation#github-releases
-[repo]: https://github.com/bufbuild/buf/
+[repo]: https://github.com/alis-exchange/buf/
 [repositories]: https://docs.buf.build/bsr/overview#module
 [roadmap]: https://docs.buf.build/roadmap
 [source]: https://docs.buf.build/installation#from-source

@@ -18,8 +18,8 @@ package bufcasalpha
 import (
 	"bytes"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcas"
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/alis-exchange/buf/private/bufpkg/bufcas"
+	modulev1alpha1 "github.com/alis-exchange/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
 )
 
 var (

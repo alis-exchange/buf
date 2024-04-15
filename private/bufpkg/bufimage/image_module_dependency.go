@@ -15,7 +15,7 @@
 package bufimage
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/alis-exchange/buf/private/bufpkg/bufmodule/bufmoduleref"
 )
 
 var _ ImageModuleDependency = &imageModuleDependency{}

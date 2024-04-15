@@ -17,8 +17,8 @@ package storagegit
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/git/gittest"
-	"github.com/bufbuild/buf/private/pkg/storage/storagetesting"
+	"github.com/alis-exchange/buf/private/pkg/git/gittest"
+	"github.com/alis-exchange/buf/private/pkg/storage/storagetesting"
 	"github.com/stretchr/testify/require"
 )
 
